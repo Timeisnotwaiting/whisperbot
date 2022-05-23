@@ -33,13 +33,6 @@ async def helep(event):
                 ]
             )
 
-
-@null.on(events.NewMessage(pattern="^[!?/]repo$"))
-async def repos(event):
-    await event.reply(
-            REPO_TEXT,
-            buttons=[
-                [Button.url("Click Here", "https://github.com/AMANTYA1/WhisperBot")]
                 ]
             )
 
