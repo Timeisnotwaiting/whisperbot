@@ -42,7 +42,7 @@ async def inline(event):
     me = (await null.get_me()).username
     try:
         inp = event.text.split(None, 1)[1]
-        user, msg = inp.split("|")
+        user, msg = inp.split("")
     except IndexError:
         await event.answer(
                 [], 
@@ -105,6 +105,6 @@ async def ws(event):
 
 null_txt = 'By @THE_END_NETWORK \n'
 null_txt += 'Any questions? forward to @xTripathi\n'
-null_txt += f'{NULLBOT_NAME} started! Developed and Maintaned by Dev\n'
+null_txt += f'{NULLBOT_NAME} started! Developed and Maintaned by RupAlpha\n'
 print(null_txt)
 null.run_until_disconnected()
