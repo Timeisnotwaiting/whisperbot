@@ -14,7 +14,7 @@ Open Source Telegram Bot to send messages secretly.
 #
 
   <h3 align="center">🚀 Heroku Deployment</h3>
-  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AMANTYA1/WhisperBot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" alt="Deploy To Heroku" width="250""/</a>
+  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/theend-alpha/WhisperBot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" alt="Deploy To Heroku" width="250""/</a>
 
 ##
 
