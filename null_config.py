@@ -11,5 +11,5 @@ NULL_TOKEN = os.environ.get("TOKEN", None) # Your token bot, get one from t.me/b
 # Config Text
 START_TEXT = f"**Heya,there I am {NULLBOT_NAME}!**\n\nType /help to see how to use me!\n\n Belongs to @THE_END_NETWORK"
 
-HELP_TEXT = f"**• How to use {NULLBOT_NAME}:**\n\nClick the button below or\n\nType <code>@EndWhisperBot wspr @timeisnotwaiting heya sir !</code>"
+HELP_TEXT = "• How to use @EndWhisperBot:**\n\nClick the button below or\n\nType <code>@EndWhisperBot wspr @timeisnotwaiting heya sir !</code>"
 
