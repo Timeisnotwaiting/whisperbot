@@ -9,8 +9,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None) # Your bot username with (@)
 NULL_TOKEN = os.environ.get("TOKEN", None) # Your token bot, get one from t.me/botfather
 
 # Config Text
-START_TEXT = f"**Heya,there I am a {NULLBOT_NAME}!**\n\nType /help to see how to use me!\nType /repo to deploy your own bot like {NULLBOT_NAME}.\n Powered by [BotDuniya](https://t.me/BotDuniyaXD)"
+START_TEXT = f"**Heya,there I am a {NULLBOT_NAME}!**\n\nType /help to see how to use me!\n\n Belongs to @THE_END_NETWORK"
 
-HELP_TEXT = f"**• How to use {NULLBOT_NAME}:**\n\nClick the button below or\n\nType __{BOT_USERNAME} wspr <username> | <text>__\nExample: `{BOT_USERNAME} wspr @Shubhanshutya | Hello!`\nEssay sir"
+HELP_TEXT = f"**• How to use {NULLBOT_NAME}:**\n\nClick the button below or\n\nType __{BOT_USERNAME} wspr <username> | <text>__\nExample: `{BOT_USERNAME} wspr @timeisnotwaiting | Hello!`\nEssay sir"
 
-REPO_TEXT = f"Click the button below to deploy bot like {NULLBOT_NAME} Thankyou"
