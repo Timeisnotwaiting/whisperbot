@@ -33,8 +33,8 @@ async def helep(event):
                 ]
             )
 
-                ]
-            )
+                
+            
 
     
 @null.on(events.InlineQuery())
