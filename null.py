@@ -5,6 +5,7 @@ from telethon import TelegramClient, Button
 from telethon.tl.functions.users import GetFullUserRequest as us
 from null_config import *
 
+omfoo = "https://te.legra.ph/file/9a93122c668f2e8dfb54f.jpg"
 
 logging.basicConfig(level=logging.INFO)
 
@@ -20,8 +21,8 @@ db = {}
 
 @null.on(events.NewMessage(pattern="^[!?/]start$"))
 async def stsrt(event):
-    await event.reply(
-            START_TEXT)
+    await event.client.send_file(event.chat_id, omfoo, caption=START_TEXT)
+           
 
 
 @null.on(events.NewMessage(pattern="^[!?/]help$"))
@@ -41,8 +42,9 @@ async def helep(event):
 async def inline(event):
     me = (await null.get_me()).username
     try:
-        inp = event.text.split(None, 1)[1]
-        user, msg = inp.split(" ")
+        inp = event.text.split(None, 2)
+        user = inp[1]
+        msg = inp[2]
     except IndexError:
         await event.answer(
                 [], 
