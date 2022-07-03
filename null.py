@@ -73,7 +73,7 @@ Click The Below Button To See The Message!\n
     deon = event.builder.article(
             title="Send your secret message!",
             description=f"Powered by {NULLBOT_NAME}",
-            url="https://t.me/BotDuniyaXd",
+            url="https://t.me/THE_END_NETWORK",
             text=null_text,
             buttons=[
                 [Button.inline(" Show Message 🔓 ", data="null_")]
@@ -103,8 +103,8 @@ async def ws(event):
     await event.answer(msg, alert=True)
 
 
-null_txt = 'By github.com/AMANTYA1 | t.me/Shubhanshutya\n'
-null_txt += 'Any questions? Say it at t.me/godzilla_chatting\n'
-null_txt += f'{NULLBOT_NAME} started! Developed and Maintaned by Null\n'
+null_txt = 'By @THE_END_NETWORK \n'
+null_txt += 'Any questions? forward to @xTripathi\n'
+null_txt += f'{NULLBOT_NAME} started! Developed and Maintaned by Dev\n'
 print(null_txt)
 null.run_until_disconnected()
