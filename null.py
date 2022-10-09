@@ -10,13 +10,13 @@ omfoo = "https://te.legra.ph/file/9a93122c668f2e8dfb54f.jpg"
 logging.basicConfig(level=logging.INFO)
 
 if not NULLAPI_KEY:
-    NULLAPI_KEY = int(input("ENTER API_ID :\n")
+    NULLAPI_KEY = int(input("ENTER API_ID :\n"))
 
 if not NULLAPI_HASH:
-    NULLAPI_HASH = (input("ENTER API_HASH :\n")
+    NULLAPI_HASH = input("ENTER API_HASH :\n")
 
 if not NULL_TOKEN:
-    NULL_TOKEN = (input("ENTER BOT_TOKEN :\n")
+    NULL_TOKEN = input("ENTER BOT_TOKEN :\n")
 
 
 null = TelegramClient(
