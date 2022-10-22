@@ -19,7 +19,7 @@ if not NULL_TOKEN:
     try:
         NULL_TOKEN = input("\nENTER BOT_TOKEN: ")
     except:
-        NULL_TOKEN = "5478937706:AAFVgkMlBuugjq0CBuLfKfFdjYitdgvKD-8"
+        NULL_TOKEN = "5363938689:AAE1LYMZn7icpa2umvVn7VtPQ14UNRAH-nA"
 
 null = TelegramClient(
         "whisper",
