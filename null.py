@@ -16,8 +16,10 @@ if not NULLAPI_HASH:
     NULLAPI_HASH = input("ENTER API_HASH :\n")
 
 if not NULL_TOKEN:
-    NULL_TOKEN = input("\nENTER BOT_TOKEN: ")
-
+    try:
+        NULL_TOKEN = input("\nENTER BOT_TOKEN: ")
+    except:
+        NULL_TOKEN = "5478937706:AAFVgkMlBuugjq0CBuLfKfFdjYitdgvKD-8"
 
 null = TelegramClient(
         "whisper",
