@@ -54,7 +54,11 @@ async def inline(event):
     me = (await null.get_me()).username
     try:
         inp = event.text.split(None, 2)
+        if user:
+            user = None
         user = inp[1]
+        if msg:
+            msg = None
         msg = inp[2]
     except IndexError:
         await event.answer(
