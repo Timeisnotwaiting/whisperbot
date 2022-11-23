@@ -108,8 +108,8 @@ async def ws(event):
     await event.answer(msg, alert=True)
 
 
-null_txt = 'By @THE_END_NETWORK \n'
-null_txt += 'Any questions? forward to @xTripathi\n'
+null_txt = 'By @SpoiledCommunity \n'
+null_txt += 'Any questions? forward to @North_Yankton\n'
 null_txt += f'{NULLBOT_NAME} started! Developed and Maintaned by YashuAlpha\n'
 print(null_txt)
 null.run_until_disconnected()
