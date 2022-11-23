@@ -9,7 +9,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None) # Your bot username with (@)
 NULL_TOKEN = os.environ.get("TOKEN", None) # Your token bot, get one from t.me/botfather
 
 # Config Text
-START_TEXT = f"**Heya,there I am {NULLBOT_NAME}!**\n\nType /help to see how to use me!\n\n Belongs to @THE_END_NETWORK"
+START_TEXT = f"**Heya,there I am {NULLBOT_NAME}!**\n\nType /help to see how to use me!\n\n Belongs to @SpoiledCommunity"
 
-HELP_TEXT = "• How to use @EndWhisperBot:**\n\nClick the button below or\n\nType @EndWhisperBot wspr @timeisnotwaiting heya sir !"
+HELP_TEXT = f"• How to use @{BOT_USERNAME}:**\n\nClick the button below or\n\nType @{BOT_USERNAME} wspr @North_Yankton heya sir !"
 
