@@ -5,7 +5,7 @@ from telethon import TelegramClient, Button
 from telethon.tl.functions.users import GetFullUserRequest as us
 from null_config import *
 
-omfoo = "https://te.legra.ph/file/9a93122c668f2e8dfb54f.jpg"
+omfoo = "https://te.legra.ph/file/f5930296ab62b82985e32.jpg"
 
 logging.basicConfig(level=logging.INFO)
 
